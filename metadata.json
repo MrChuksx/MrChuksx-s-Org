@@ -1,0 +1,7 @@
+{
+  "name": "GoNarrative AI",
+  "description": "An immersive AI-powered storytelling platform that transforms prompts into narrated visual experiences with cinematic images and high-quality voice acting.",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}
