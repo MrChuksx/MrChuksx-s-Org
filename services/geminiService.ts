@@ -1,7 +1,7 @@
 import { GoogleGenAI, Type, Modality } from "@google/genai";
 import { Story, Scene, VideoForm, AspectRatio } from "../types";
 
-const API_KEY = process.env.API_KEY;
+const API_KEY = process.env.API_KEY || 'FAKE_API_KEY_FOR_DEVELOPMENT';
 
 /**
  * Robust utility to retry API calls on 429 (Rate Limit) errors with exponential backoff.
